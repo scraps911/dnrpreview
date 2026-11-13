@@ -1,6 +1,0 @@
-Art walk: images for the site's cycling button.
-Checked 13 Nov 2026 (Eastern). No images found, so this folder is empty.
-
-Searched: every Instagram caption in data/raw/gallery-dl/instagram/ (do.not.research, georgiapettit and the other accounts) and every Substack post in data/raw/blog/posts/ for "art walk", "artwalk", "gallery walk", "walk", "galleries", "Chelsea", "Tribeca", "Lower East Side", "Nate De La Cruz".
-Result: no post or caption is about the art walk. The georgiapettit download holds one post only (the Spring 2026 book club syllabus).
-Nothing else was added in its place.
