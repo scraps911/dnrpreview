@@ -1,0 +1,21 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow"><title>Do Not Research (preview)</title>
+<style>body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#000;color:#18f818;font:16px/1.4 ui-monospace,Menlo,monospace}
+form{display:flex;flex-direction:column;gap:12px;width:min(320px,90vw)}input,button{font:inherit;padding:10px;border:1px solid #18f818;background:#000;color:#18f818}
+button{cursor:pointer}#e{min-height:1.4em;font-size:14px}</style></head><body>
+<form id="f"><div>DO NOT RESEARCH: preview</div><input id="p" type="password" placeholder="Password" autocomplete="current-password" autofocus><button>Enter</button><div id="e"></div></form>
+<script>
+const D={s:"FlelDwkwL7FU6nZGZy0OPA==",i:210000,iv:"5NfvCDM5kTLfjqu1",c:"0vtsJ+z7kzsFXz+oMMZg3k4iUV1Ea+mP6WauxIP2UOp84V3MRMwc7DoniRtMf0nl6yw0lIqoHRE5MS6Pr/vP77U1PRlLTnPNri69JuRLimnbbxkXEYt8AIQCg79pU0mAHX3ahugIRXjvaCvzrfbL7d2A8M6QGJXBGmp9nAh+TaVqf9JYmg28fKBqSOvnI/vsVtu6rvIdkThzSLxd6HSS8SwgXjf3BMMzAI2ZR1jcd5CeBhatFnffiONGJIVaxHq8BjNw6HO8u1uMVOKpCXtF6b5z37cM3eegI3mgjPZXyBiog2OZ6J/IijtzG5/kwEL9MOFjBMEhhJHc+K6vZTGU87oZmrD5vByAJlLYkAf2KZz/pqKGVgB41jfJz3bbOKp19foCcG8u92t5kFvzXxnbzGjDSthVBIHFPp3d+4jqALiYTa0zWLLLdcia4vUZonh7nFGS//zC9FuAKr44XpMyKCBOiGXZ4jlUS0btVG+P0OvtNSGqd3LQx2iUj7fLC79SsYnv7W5aTNHzaMysTq44+oDG6KFu149EW68="},K="dnrpreview-key-"+D.s,u=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
+async function k(pw){const m=await crypto.subtle.importKey("raw",new TextEncoder().encode(pw),"PBKDF2",false,["deriveBits"]);
+return new Uint8Array(await crypto.subtle.deriveBits({name:"PBKDF2",salt:u(D.s),iterations:D.i,hash:"SHA-256"},m,256));}
+async function open(raw){const key=await crypto.subtle.importKey("raw",raw,"AES-GCM",false,["decrypt"]);
+const h=new TextDecoder().decode(await crypto.subtle.decrypt({name:"AES-GCM",iv:u(D.iv)},key,u(D.c)));document.open();document.write(h);document.close();}
+let s=null;try{s=localStorage.getItem(K)}catch(e){}
+if(s){document.getElementById("f").style.visibility="hidden";
+// Wait until this page has finished loading, so the decrypted page replaces it instead of mixing into it.
+const go=async()=>{try{await open(u(s))}catch(e){try{localStorage.removeItem(K)}catch(x){}document.getElementById("f").style.visibility="visible"}};
+if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",()=>setTimeout(go,0));else setTimeout(go,0);}
+document.getElementById("f").addEventListener("submit",async ev=>{ev.preventDefault();const e=document.getElementById("e");e.textContent="Checking...";
+try{const raw=await k(document.getElementById("p").value);await open(raw);try{localStorage.setItem(K,btoa(String.fromCharCode(...raw)))}catch(x){}}catch(x){e.textContent="Wrong password."}});
+</script></body></html>
