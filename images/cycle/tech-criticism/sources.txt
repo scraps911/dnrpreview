@@ -1,0 +1,19 @@
+Technology Criticism (Mike Pepi): images for the site's cycling button.
+Made 13 Nov 2026 (Eastern). Each is 360 px wide, JPEG quality 45, made with sips.
+Originals: data/raw/gallery-dl/ is on Tomi's Mac, outside git.
+
+01.jpg  site/public/images/posts/159425214/01.jpg  diagram from "Mike Pepi: Political Axes for the 21st Century" (Substack post 159425214), copied as is
+02.jpg  site/public/images/posts/159425214/02.jpg  same post, copied as is
+03.jpg  site/public/images/posts/159425214/03.jpg  same post, copied as is
+04.jpg  site/public/images/posts/159425214/04.jpg  same post, copied as is
+05.jpg  site/public/images/posts/159425214/05.jpg  same post, copied as is
+06.jpg  data/raw/gallery-dl/substack/2026-02-16_187575143/00_dff57b28-daac-4b36-afb7-33053714baf6_1292x1292.jpeg  course image (Raft of the Medusa with "Platform Hegemony / The Return to Institutions"), cover of "DNR Spring Courses" (post 187575143); the same image is the gallery image at https://donotresearch.metalabel.com/dnru-03
+07.jpg  https://metalabel.imgix.net/QmYFjjRQnT7HaoqtmAk4Cfxn4PopmL6Xig7ESNdCzAd1tF  grey version of the course image, gallery image at https://donotresearch.metalabel.com/dnrru-04 (DNR Fall 25: Technology Criticism)
+08.jpg  https://images.penguinrandomhouse.com/cover/700jpg/9781685891374  cover of Mike Pepi, "Against Platforms: Surviving Digital Utopia" (Melville House, 2025, ISBN 9781685891374), from the distributor's cover server; the publisher's page https://mhpbooks.com/books/against-platforms/ blocks scripts. Publisher's copyright: check before it goes public.
+09.jpg  data/raw/gallery-dl/substack/2025-11-18_154177443/00_73d40e6c-a84e-4ae5-b1a0-a7dc292b415a_2560x1735.jpeg  cover of "DNR Salon Series 2025" (post 154177443), whose fall salon (2 Nov 2025) Mike Pepi led; the painting is Thomas Cole, The Consummation of Empire. Loose tie: it is the series header, not his session alone.
+
+Looked at and left out:
+- Instagram DH3e-0EuqgA (12 slides), DOquBokEd9n (7), DU0ho5HEWvB (7), DRM5cEAEdxA (8): all screenshots of the Substack posts or plain text slides.
+- "Mike Pepi: Bad Data" (post 105073072): no images in the post.
+- Covers of "DNR Fall Courses" and "DNR Summer Courses" (film projector, green and red): the Bootcamp artwork, not Technology Criticism.
+- No reading list is named in the posts or on the Metalabel pages (only the four session titles), so no covers of course texts were added.
