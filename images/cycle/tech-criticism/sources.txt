@@ -1,19 +1,50 @@
 Technology Criticism (Mike Pepi): images for the site's cycling button.
-Made 13 Nov 2026 (Eastern). Each is 360 px wide, JPEG quality 45, made with sips.
-Originals: data/raw/gallery-dl/ is on Tomi's Mac, outside git.
+Rebuilt 13 Nov 2026, 3:30 PM Eastern. 34 images, each 360 px wide, JPEG quality 45, made with sips.
+Columns: file, original in data/raw/classes/images/tech-criticism/ (or the site file copied), what it is, source page.
+Full rows (image URLs, licences) are in data/raw/classes/images/manifest.csv; the reading behind them is in data/clean/classes/course_image_sources.md.
 
-01.jpg  site/public/images/posts/159425214/01.jpg  diagram from "Mike Pepi: Political Axes for the 21st Century" (Substack post 159425214), copied as is
-02.jpg  site/public/images/posts/159425214/02.jpg  same post, copied as is
-03.jpg  site/public/images/posts/159425214/03.jpg  same post, copied as is
-04.jpg  site/public/images/posts/159425214/04.jpg  same post, copied as is
-05.jpg  site/public/images/posts/159425214/05.jpg  same post, copied as is
-06.jpg  data/raw/gallery-dl/substack/2026-02-16_187575143/00_dff57b28-daac-4b36-afb7-33053714baf6_1292x1292.jpeg  course image (Raft of the Medusa with "Platform Hegemony / The Return to Institutions"), cover of "DNR Spring Courses" (post 187575143); the same image is the gallery image at https://donotresearch.metalabel.com/dnru-03
-07.jpg  https://metalabel.imgix.net/QmYFjjRQnT7HaoqtmAk4Cfxn4PopmL6Xig7ESNdCzAd1tF  grey version of the course image, gallery image at https://donotresearch.metalabel.com/dnrru-04 (DNR Fall 25: Technology Criticism)
-08.jpg  https://images.penguinrandomhouse.com/cover/700jpg/9781685891374  cover of Mike Pepi, "Against Platforms: Surviving Digital Utopia" (Melville House, 2025, ISBN 9781685891374), from the distributor's cover server; the publisher's page https://mhpbooks.com/books/against-platforms/ blocks scripts. Publisher's copyright: check before it goes public.
-09.jpg  data/raw/gallery-dl/substack/2025-11-18_154177443/00_73d40e6c-a84e-4ae5-b1a0-a7dc292b415a_2560x1735.jpeg  cover of "DNR Salon Series 2025" (post 154177443), whose fall salon (2 Nov 2025) Mike Pepi led; the painting is Thomas Cole, The Consummation of Empire. Loose tie: it is the series header, not his session alone.
+The course reading list was NOT found. Known for sure: the four session titles (Metalabel dnrru-04 and dnru-03),
+Mumford's "Art and Technics" (read in Fall 2025), and Pepi's own public list of six "essentials" (his Substack, 21 May 2025).
+Every row marked "not confirmed on the syllabus" is from the canon the session titles imply, not from his list.
+
+01.jpg	site/public/images/posts/159425214/01.jpg	Diagram from "Mike Pepi: Political Axes for the 21st Century" (DNR Substack post 159425214), image 01 (copied as is)	https://donotresearch.substack.com/p/mike-pepi-political-axes-for-the
+02.jpg	01_luddite.jpg	"The Leader of the Luddites", engraving, 1812. Wikimedia Commons, Public domain; not confirmed on the syllabus	https://commons.wikimedia.org/wiki/File%3ALuddite.jpg
+03.jpg	02_whole-earth-catalog.jpg	Whole Earth Catalog, back cover, 1972 ("We can't put it together. It is together."). Wikimedia Commons, CC0; not confirmed on the syllabus	https://commons.wikimedia.org/wiki/File%3AWhole_Earth_Catalog_back_cover_1972.jpg
+04.jpg	03_raft-platform-hegemony.jpeg	Course image: Raft of the Medusa with "Platform Hegemony / The Return to Institutions"; cover of "DNR Spring Courses" (post 187575143) and gallery image at https://donotresearch.metalabel.com/dnru-03	https://donotresearch.metalabel.com/dnru-03
+05.jpg	04_eniac.jpg	ENIAC, U.S. Army photo, about 1947. Wikimedia Commons, Public domain; not confirmed on the syllabus	https://commons.wikimedia.org/wiki/File%3AEniac.jpg
+06.jpg	05_arpanet-map-1977.jpg	ARPANET logical map, March 1977. Wikimedia Commons, Public domain; not confirmed on the syllabus	https://commons.wikimedia.org/wiki/File%3AArpanet_logical_map%2C_march_1977.png
+07.jpg	06_art-and-technics.jpg	Lewis Mumford, "Art and Technics" (cover, as shown in Pepi's "A Few Essentials of Technology Criticism"). Read in the Fall 2025 class (said by class members in the Discord export) and first on Pepi's public list	https://mikepepi.substack.com/p/a-few-essentials-of-technology-criticism
+08.jpg	07_mechanical-turk.jpg	The Mechanical Turk chess automaton, engraving, 1783 (the namesake of Amazon Mechanical Turk). Wikimedia Commons, Public domain; not confirmed on the syllabus	https://commons.wikimedia.org/wiki/File%3ATuerkischer_schachspieler_windisch4.jpg
+09.jpg	site/public/images/posts/159425214/02.jpg	Diagram from "Mike Pepi: Political Axes for the 21st Century" (DNR Substack post 159425214), image 02 (copied as is)	https://donotresearch.substack.com/p/mike-pepi-political-axes-for-the
+10.jpg	08_hine-mechanic.jpg	Lewis Hine, "Power house mechanic working on steam pump", 1920. Wikimedia Commons, Public domain; not confirmed on the syllabus	https://commons.wikimedia.org/wiki/File%3ALewis_Hine_Power_house_mechanic_working_on_steam_pump.jpg
+11.jpg	09_cybersyn.jpg	Project Cybersyn operations room, Chile, 1971-73 (3D render). Wikimedia Commons, CC BY-SA 3.0 fr; not confirmed on the syllabus	https://commons.wikimedia.org/wiki/File%3ACyberSyn-render-107.png
+12.jpg	10_earthrise.jpg	Earthrise, Apollo 8, NASA, 1968 (the image behind the Whole Earth Catalog). Wikimedia Commons, Public domain; not confirmed on the syllabus	https://commons.wikimedia.org/wiki/File%3ANASA-Apollo8-Dec24-Earthrise.jpg
+13.jpg	11_against-platforms.jpg	Mike Pepi, "Against Platforms: Surviving Digital Utopia" (Melville House, 2025), cover from the distributor's cover server. Publisher's copyright: check before it goes public	https://www.penguinrandomhouse.com/books/761644/against-platforms-by-mike-pepi/
+14.jpg	12_colossus.jpg	Colossus codebreaking computer, Bletchley Park, 1940s. Wikimedia Commons, Public domain; not confirmed on the syllabus	https://commons.wikimedia.org/wiki/File%3AColossus.jpg
+15.jpg	13_google-first-server.jpg	Google's first production server rack, about 1999 (Computer History Museum). Wikimedia Commons, CC BY 2.0; not confirmed on the syllabus	https://commons.wikimedia.org/wiki/File%3AGoogle%E2%80%99s_First_Production_Server.jpg
+16.jpg	site/public/images/posts/159425214/03.jpg	Diagram from "Mike Pepi: Political Axes for the 21st Century" (DNR Substack post 159425214), image 03 (copied as is)	https://donotresearch.substack.com/p/mike-pepi-political-axes-for-the
+17.jpg	14_fritz-kahn-body-machine.jpg	Fritz Kahn, illustration of the body as machinery, 1920s (Arthur and Fritz Kahn Collection). Wikimedia Commons, No restrictions; not confirmed on the syllabus	https://commons.wikimedia.org/wiki/File%3AArthur_and_Fritz_Kahn_Collection_1889-1932_%2820153212919%29.jpg
+18.jpg	15_xerox-alto.jpg	Xerox Alto, 1973, the first computer with a desktop interface. Wikimedia Commons, Public domain; not confirmed on the syllabus	https://commons.wikimedia.org/wiki/File%3AXerox_Alto_mit_Rechner.JPG
+19.jpg	16_atlas-of-ai.jpg	Kate Crawford, "Atlas of AI" (cover, as shown in Pepi's "A Few Essentials of Technology Criticism"). On Pepi's public list of six; not confirmed on the syllabus	https://mikepepi.substack.com/p/a-few-essentials-of-technology-criticism
+20.jpg	17_telegraph-map.jpg	Eastern Telegraph Company submarine cable map, 1901. Wikimedia Commons, Public domain; not confirmed on the syllabus	https://commons.wikimedia.org/wiki/File%3A1901_Eastern_Telegraph_cables.png
+21.jpg	18_difference-engine.jpg	Charles Babbage's Difference Engine, 19th-century drawing. Wikimedia Commons, Public domain; not confirmed on the syllabus	https://commons.wikimedia.org/wiki/File%3ABabbage_difference_engine_drawing.gif
+22.jpg	19_consummation-of-empire.jpeg	Thomas Cole, "The Consummation of Empire" (1836); cover of "DNR Salon Series 2025" (post 154177443), whose fall salon Mike Pepi led. Loose tie: series header	https://donotresearch.substack.com/p/dnr-salon-series-2025
+23.jpg	20_ibm-360.jpg	IBM System/360 Model 65 console, 1960s. Wikimedia Commons, CC BY-SA 4.0; not confirmed on the syllabus	https://commons.wikimedia.org/wiki/File%3AConsole%2C_IBM_System_360_Model_65.jpg
+24.jpg	site/public/images/posts/159425214/04.jpg	Diagram from "Mike Pepi: Political Axes for the 21st Century" (DNR Substack post 159425214), image 04 (copied as is)	https://donotresearch.substack.com/p/mike-pepi-political-axes-for-the
+25.jpg	21_lithium.jpg	Lithium evaporation ponds, Salar de Atacama, Chile, satellite image 2018 (the mines behind "the cloud"). Wikimedia Commons, Public domain; not confirmed on the syllabus	https://commons.wikimedia.org/wiki/File%3ASalar_de_Atacama_Lithium_salt_ponds_2018.jpg
+26.jpg	22_apple-ii.jpg	Apple II, 1977. Wikimedia Commons, CC BY-SA 2.0 fr; not confirmed on the syllabus	https://commons.wikimedia.org/wiki/File%3AApple_II_at_Mus%C3%A9e_Bolo.jpg
+27.jpg	23_parkway-overpass.jpg	Stone overpass on the Southern State Parkway, Long Island: the Robert Moses bridges of Langdon Winner's "Do Artifacts Have Politics?". Wikimedia Commons, CC BY-SA 2.0; not confirmed on the syllabus	https://commons.wikimedia.org/wiki/File%3ASouthern_State_Parkway_-_New_York_-_6822419781.jpg
+28.jpg	24_mosaic.jpg	NCSA Mosaic web browser, 1993, screenshot. Wikimedia Commons, CC0; not confirmed on the syllabus	https://commons.wikimedia.org/wiki/File%3ANCSA_Mosaic_Browser_Screenshot.png
+29.jpg	25_protocol.jpg	Alexander Galloway, "Protocol: How Control Exists After Decentralization" (cover, as shown in Pepi's "A Few Essentials of Technology Criticism"). On Pepi's public list of six; not confirmed on the syllabus	https://mikepepi.substack.com/p/a-few-essentials-of-technology-criticism
+30.jpg	26_univac.jpg	UNIVAC I demonstration, early 1950s. Wikimedia Commons, Public domain; not confirmed on the syllabus	https://commons.wikimedia.org/wiki/File%3AUNIVAC_1_demo.jpg
+31.jpg	site/public/images/posts/159425214/05.jpg	Diagram from "Mike Pepi: Political Axes for the 21st Century" (DNR Substack post 159425214), image 05 (copied as is)	https://donotresearch.substack.com/p/mike-pepi-political-axes-for-the
+32.jpg	27_biosphere.jpg	Buckminster Fuller's geodesic dome, U.S. pavilion at Expo 67, Montreal. Wikimedia Commons, CC BY-SA 4.0; not confirmed on the syllabus	https://commons.wikimedia.org/wiki/File%3AMontreal_Biosphere%2C_Le_Moyne_Channel%2C_St_Lawrence_River.jpg
+33.jpg	28_data-center.jpg	Google server racks. Wikimedia Commons, CC BY-SA 2.0; not confirmed on the syllabus	https://commons.wikimedia.org/wiki/File%3AGoogle_Servers.jpg
+34.jpg	29_altair.jpg	Altair 8800 with Teletype, 1975, the Homebrew Computer Club's machine. Wikimedia Commons, CC BY-SA 4.0; not confirmed on the syllabus	https://commons.wikimedia.org/wiki/File%3AAltair_8800_and_Model_33_ASR_Teletype.jpg
 
 Looked at and left out:
-- Instagram DH3e-0EuqgA (12 slides), DOquBokEd9n (7), DU0ho5HEWvB (7), DRM5cEAEdxA (8): all screenshots of the Substack posts or plain text slides.
+- Grey version of the course image (Metalabel dnrru-04): same picture as 04, weaker.
+- Instagram DH3e-0EuqgA, DOquBokEd9n, DU0ho5HEWvB, DRM5cEAEdxA: screenshots of the Substack posts or plain text slides.
 - "Mike Pepi: Bad Data" (post 105073072): no images in the post.
-- Covers of "DNR Fall Courses" and "DNR Summer Courses" (film projector, green and red): the Bootcamp artwork, not Technology Criticism.
-- No reading list is named in the posts or on the Metalabel pages (only the four session titles), so no covers of course texts were added.
+- Covers of Radical Technologies, The Black Box Society, The Real World of Technology (on Pepi's list of six): mostly type.
+- From Wikimedia Commons, dull or with bystanders: Amazon warehouse exterior, the Apple garage, Homebrew Computer Club newsletter page, an ARPANET IMP, SAGE console with visitors, Facebook sign, Mundaneum, a punched card, an 1850s cable map, an Engelbart mouse replica.

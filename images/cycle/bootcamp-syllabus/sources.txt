@@ -1,35 +1,68 @@
-# which file in data/raw/classes/images/bootcamp/ became which number (see data/raw/classes/images/manifest.csv)
-01.jpg	01_capitalist-realism.jpg
-02.jpg	02_mark-fisher.jpg
-03.jpg	03_politigram.jpg
-04.jpg	04_100-gecs.jpg
-05.jpg	05_leckey-long-tail.jpg
-06.jpg	06_felix-first-tv.jpg
-07.jpg	07_long-tail-graph.png
-08.jpg	08_zeros-and-ones.jpg
-09.jpg	09_sadie-plant.jpg
-10.jpg	10_jacquard-loom.jpg
-11.jpg	11_jacquard-punchcards.jpg
-12.jpg	12_ccru-writings.jpg
-13.jpg	13_numogram.png
-14.jpg	14_fanged-noumena.jpg
-15.jpg	15_meltdown-video.jpg
-16.jpg	16_four-futures-cover.jpg
-17.jpg	17_liu-doomscroll.jpg
-18.jpg	18_inventing-the-future.jpg
-19.jpg	19_peoples-republic-of-walmart.jpg
-20.jpg	20_walmart-interview.jpg
-21.jpg	21_jameson-american-utopia.jpg
-22.jpg	22_american-utopia-book.jpg
-23.jpg	23_choose-your-future.jpg
-24.jpg	24_dkp-market-socialism.jpg
-25.jpg	25_crisis-of-narration.jpg
-26.jpg	26_poor-meme-rich-meme.jpg
-27.jpg	27_accidental-audience.jpg
-28.jpg	28_art-thoughtz.jpg
-29.jpg	29_painted-protest.jpg
-30.jpg	30_walter-benjamin.jpg
-31.jpg	31_poor-image.jpg
-32.jpg	32_wicaft-seaport-talks.jpg
-33.jpg	33_new-pipeline.jpg
-34.jpg	34_new-models-keynote.jpg
+Bootcamp (Theresa Tomi Faison): images for the site's cycling button.
+Rebuilt 13 Nov 2026, 3:31 PM Eastern. 49 images, each 360 px wide, JPEG quality 45, made with sips.
+Columns: file, original in data/raw/classes/images/bootcamp/, what it is, source page.
+Full rows (image URLs) are in data/raw/classes/images/manifest.csv; the syllabus is in data/clean/classes/course_image_sources.md.
+
+What changed: the book covers and author portraits are out. In: memes, diagrams, artworks and strange internet media from
+DNR's own 2021-2022 blog posts on the course's topics (rows that say "DNR Substack": on the topics, not on the Spring 2026 list),
+two new stills from Mark Leckey's In the Long Tail, and a political compass chart. 13 of the earlier 34 are kept.
+No image is from the pool in site/src/data/post-images.json.
+33.jpg is the earlier cropped copy (the original 28_art-thoughtz.jpg has black bars).
+
+01.jpg	35_wanderer-pepe-cringe.png	Meme: Pepe as Friedrich's Wanderer, "Do not kill the part of you that is cringe"; from "Nate Sloan: BEYOND BASED AND CRINGE" (DNR Substack, 2021-06-21). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/nate-sloan-beyond-based-and-cringe
+02.jpg	13_numogram.png	The Numogram (Ccru diagram)	https://commons.wikimedia.org/wiki/File:Numogram.svg
+03.jpg	36_fisher-not-that-deep.jpeg	Meme: Mark Fisher, "Look fam, its not that deep"; from "Academic Fraud: The Memeing of Mark Fisher" (DNR Substack, 2021-09-15). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/academic-fraud-the-memeing-of-mark
+04.jpg	37_esoteric-memes-sculpture.jpeg	Max Dauven, Esoteric Memes (sculpture, photographed on pink); from "Max Dauven: Esoteric Memes" (DNR Substack, 2022-10-15). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/max-dauven-esoteric-memes
+05.jpg	38_parasocial-spiral-funnel.jpeg	Diagram: the parasocial spiral under the political compass; from "Jak Ritger: The Parasocial Spiral" (DNR Substack, 2021-09-15). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/jak-ritger-the-parasocial-spiral
+06.jpg	06_felix-first-tv.jpg	Felix the Cat on a turntable, RCA/NBC experimental television, 1928 (the image at the centre of In the Long Tail)	https://commons.wikimedia.org/wiki/File:First_television_broadcast_NBC.JPG
+07.jpg	39_algorithm-like-a-prayer.png	Meme on an old engraving: "If I play the Algorithm delicately, like a Prayer"; from "Harris Rosenblum: Algorithmic Alienation and Transcendence" (DNR Substack, 2022-10-16). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/harris-rosenblum-algorithmic-alienation
+08.jpg	23_choose-your-future.jpg	Choose Your Future (2021 project image)	http://joshuacitarella.com/chooseyourfuture/
+09.jpg	40_youve-changed-butterfly.png	Meme: caterpillar and butterfly, "You've changed"; from "Joshua Citarella: The Slow Red Pill" (DNR Substack, 2021-07-14). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/joshua-citarella-memetic-tactics
+10.jpg	41_leckey-long-tail-chalkboard.jpg	Mark Leckey, In the Long Tail (2009), part 4: drawing the long tail on the blackboard (video still at about 6:25)	https://www.youtube.com/watch?v=2JgzHK4XvZU
+11.jpg	42_politipoly-board.jpeg	Guillermo Gutiérrez Arribas, Politipoly (board game artwork); from "Guillermo Gutiérrez Arribas: Politipoly" (DNR Substack, 2022-10-15). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/guillermo-gutierrez-arribas-politipoly
+12.jpg	43_moreau-apparition.jpeg	Gustave Moreau, The Apparition (painting used in the essay); from "Nate Sloan: BEYOND BASED AND CRINGE" (DNR Substack, 2021-06-21). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/nate-sloan-beyond-based-and-cringe
+13.jpg	44_political-compass.jpg	Political compass chart (the four-quadrant chart behind week 1). Wikimedia Commons, CC BY-SA 4.0	https://commons.wikimedia.org/wiki/File:UK_political_compass.PNG
+14.jpg	15_meltdown-video.jpg	Meltdown (the YouTube reading of Land's 1994 text, video still)	https://www.youtube.com/watch?v=fiaWsgtJrNI
+15.jpg	45_let-me-schizo-post.jpeg	Meme: "Let me schizo post / I will return to reality later"; from "Caleb Cain: Millenarian Dreams of the Schizo-scene" (DNR Substack, 2022-02-15). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/caleb-cain-millenarian-dreams-of
+16.jpg	46_fellow-kids-capitalist-realism.jpeg	Meme: "How do you do, fellow kids?" in a Capitalist Realism shirt; from "Academic Fraud: The Memeing of Mark Fisher" (DNR Substack, 2021-09-15). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/academic-fraud-the-memeing-of-mark
+17.jpg	47_mont-pelerin-holy-mountain.jpeg	Flyer: "Mont Pèlerin, the holy mountain of neoliberalism", DNR research field trip, 5 Feb 2022; from "Do Not Research: Mont‐Pèlerin Field Trip" (DNR Substack, 2022-02-15). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/do-not-research-montpelerin-field
+18.jpg	27_accidental-audience.jpg	The Accidental Audience (essay image, The New Inquiry 2013)	https://thenewinquiry.com/the-accidental-audience/
+19.jpg	48_plant-a-meme-fortnite-deleuze_crop.png	Meme book cover: Deleuze and Guattari, "Fortnite Advanced Strategy & Tactics"; from "Joshua Citarella: How to Plant a Meme" (DNR Substack, 2022-04-10). On the course's topics, not on the Spring 2026 list (cycle copy made from the cropped file next to it)	https://donotresearch.substack.com/p/joshua-citarella-how-to-plant-a-meme
+20.jpg	49_sticky-vs-friction-model.jpeg	Jak Ritger, diagram: "Sticky vs. Friction Model"; from "Jak Ritger: Digital Economy Models" (DNR Substack, 2022-10-16). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/jak-ritger-digital-economy-models
+21.jpg	50_angel-numbers.jpeg	Collage: a finger scrolling angel-number search results; from "Lena Peplińska: Think of a number from 1 to 77. Conspiracy theories as memetic dreams" (DNR Substack, 2022-10-16). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/lena-peplinska-think-of-a-number
+22.jpg	14_fanged-noumena.jpg	Fanged Noumena: Collected Writings 1987-2007 (book cover, Urbanomic)	https://www.urbanomic.com/book/fanged-noumena/
+23.jpg	51_wojak-grid.jpeg	Grid of pink wojak variations; from "Jacob Engblom: feels.matrix.surf" (DNR Substack, 2022-10-16). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/jacob-engblom-feelsmatrixsurf
+24.jpg	52_vinegar-tasters.jpeg	The Vinegar Tasters (Confucius, Buddha, Laozi), painting used for "Taoist Anarchism"; from "Logan Marrow: Edeologies: Taoist Anarchism" (DNR Substack, 2021-09-15). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/logan-marrow-edeologies-taoist-anarchism
+25.jpg	53_leckey-long-tail-blue.jpg	Mark Leckey, In the Long Tail (2009), part 4: projected image, blue (video still at the start)	https://www.youtube.com/watch?v=2JgzHK4XvZU
+26.jpg	54_meme-war-veterans.jpeg	Meme: "Thank you to all the meme war veterans"; from "Academic Fraud: The Memeing of Mark Fisher" (DNR Substack, 2021-09-15). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/academic-fraud-the-memeing-of-mark
+27.jpg	26_poor-meme-rich-meme.jpg	Poor Meme, Rich Meme (essay illustration by Christine Ayo, Real Life 2016)	https://reallifemag.com/poor-meme-rich-meme/
+28.jpg	55_algorithmic-alienation-diagram.png	Harris Rosenblum, cycle diagram of online ideologies drawn over a mouth; from "Harris Rosenblum: Algorithmic Alienation and Transcendence" (DNR Substack, 2022-10-16). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/harris-rosenblum-algorithmic-alienation
+29.jpg	56_neet-coloring-book.jpeg	Nick Vyssotsky, Astro Millennial NEET Bedroom Coloring Book for Adults (cover); from "Nick Vyssotsky: Astro Millenial NEET Boredom Coloring Book for Adults" (DNR Substack, 2021-09-15). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/nick-vyssotsky-astro-millenial-neet
+30.jpg	07_long-tail-graph.png	The long tail (graph of the idea Leckey's lecture takes up)	https://commons.wikimedia.org/wiki/File:Long_tail.svg
+31.jpg	57_plant-a-meme-meat-nexus_crop.png	Meme: "On August 6th 2037, lets all go to the McDonald central meat nexus"; from "Joshua Citarella: How to Plant a Meme" (DNR Substack, 2022-04-10). On the course's topics, not on the Spring 2026 list (cycle copy made from the cropped file next to it)	https://donotresearch.substack.com/p/joshua-citarella-how-to-plant-a-meme
+32.jpg	58_hyperborea-map.jpeg	Mercator's map of the North Pole (1595), used for "Hyperborea"; from "Holly O: Hyperborea" (DNR Substack, 2021-03-30). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/holly-o-hyperborea
+33.jpg	28_art-thoughtz.jpg	ART THOUGHTZ: Relational Aesthetics (video still)	https://www.youtube.com/watch?v=7yea4qSJMx4
+34.jpg	59_reality-shifting-room.jpeg	Dylan Serventi, Reality Shifting (rendered bedroom with a summoning circle); from "Dylan Serventi: Reality Shifting" (DNR Substack, 2022-10-15). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/dylan-serventi-reality-shifting
+35.jpg	60_capitalist-realism-meme-book.jpeg	Annebel Breij, Capitalist Realism Meme Book (cover collage); from "Annebel Breij: Capitalist Realism Meme Book" (DNR Substack, 2022-02-15). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/annebel-breij-capitalist-realism
+36.jpg	12_ccru-writings.jpg	Ccru: Writings 1997-2003 (book cover, Urbanomic/Time Spiral Press)	https://www.urbanomic.com/book/ccru-writings-1997-2003/
+37.jpg	61_cassiopaean-site.jpeg	Screenshot: the Cassiopaean Experiment website; from "Lena Peplińska: Think of a number from 1 to 77. Conspiracy theories as memetic dreams" (DNR Substack, 2022-10-16). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/lena-peplinska-think-of-a-number
+38.jpg	62_symbology-jacket.jpeg	John Fullmer, Symbology Jacket (flight jacket covered in black-project patches); from "John Fullmer: Symbology Jacket" (DNR Substack, 2022-02-15). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/john-fullmer-symbology-jacket
+39.jpg	33_new-pipeline.jpg	A New Pipeline (essay cover image)	https://joshuacitarella.substack.com/p/a-new-pipeline
+40.jpg	63_wanderer-burning-yards.jpeg	Dank Lloyd Wright, Wanderer Above the Burning Yards; from "Dank Lloyd Wright: Wanderer Above the Burning Yards" (DNR Substack, 2021-09-15). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/dank-lloyd-wright-wanderer-above
+41.jpg	64_plant-a-meme-sad-philosopher_crop.png	Meme: "You approach a Sad Philosopher. He appears to be weeping."; from "Joshua Citarella: How to Plant a Meme" (DNR Substack, 2022-04-10). On the course's topics, not on the Spring 2026 list (cycle copy made from the cropped file next to it)	https://donotresearch.substack.com/p/joshua-citarella-how-to-plant-a-meme
+42.jpg	31_poor-image.jpg	In Defense of the Poor Image (essay lead image, e-flux Journal 10, 2009)	https://www.e-flux.com/journal/10/61362/in-defense-of-the-poor-image/
+43.jpg	65_more-than-orcs-reliquary.jpeg	Harris Rosenblum, silver reliquary from More Than Orcs; from "Harris Rosenblum: More Than Orcs" (DNR Substack, 2022-02-15). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/harris-rosenblum-more-than-orcs
+44.jpg	66_wojak-fragmented-memories.jpeg	Meme: wojak, "When you realize that no matter what happens..."; from "Lena Peplińska: Think of a number from 1 to 77. Conspiracy theories as memetic dreams" (DNR Substack, 2022-10-16). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/lena-peplinska-think-of-a-number
+45.jpg	29_painted-protest.jpg	The Painted Protest (essay lead image, Harper's, Dec 2024)	https://harpers.org/archive/2024/12/the-painted-protest-dean-kissick-contemporary-art/
+46.jpg	67_parasocial-spiral-map.jpeg	Jak Ritger, diagram: the parasocial spiral, affinity groups and counter-strategies; from "Jak Ritger: The Parasocial Spiral" (DNR Substack, 2021-09-15). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/jak-ritger-the-parasocial-spiral
+47.jpg	68_secret-third-thing.jpeg	Thomas Mader, "Neither seen nor heard but a secret 3rd thing"; from "Thomas Mader: This image will become important later" (DNR Substack, 2022-10-16). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/thomas-mader-this-image-will-become
+48.jpg	69_mader-collage.jpeg	Thomas Mader, painted collage with scales and sun; from "Thomas Mader: This image will become important later" (DNR Substack, 2022-10-16). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/thomas-mader-this-image-will-become
+49.jpg	70_areyouwinningson.jpeg	Dana Greenleaf, Areyouwinningson? (film poster); from "Dana Greenleaf: Areyouwinningson?" (DNR Substack, 2022-02-15). On the course's topics, not on the Spring 2026 list	https://donotresearch.substack.com/p/dana-greenleaf-areyouwinningson
+
+Looked at and left out (DNR blog):
+- Noura Tafeche, "75 Tbps of Cute Violence Compass": a strong political-compass artwork, but it shows real people's faces and suggestive images. Tomi to decide.
+- Conspiracy iceberg chart (Lena Peplińska's post): photos of what may be private people, and entries naming hateful ideologies.
+- "Reject Modernity, Embrace Tradition II" reliefs: sexually explicit.
+- Hyperborean Mashup and fashwave images, Roblox "Valkist" screenshots, Ritual Ballistics shield: far-right symbols, or symbols too small to check.
+- Screenshots of tweets, Discord and Instagram posts: handles.
+Dropped from the earlier set: covers of Capitalist Realism, Zeros + Ones, Inventing the Future, Four Futures, People's Republic of Walmart, An American Utopia, The Crisis of Narration, What Is Contemporary Art For Today; portraits of Fisher, Plant, Benjamin; the Politigram cover; 100 gecs; the darker Leckey still; the Jacquard pictures; the Liu, Walmart, Jameson, DKP and New Models video stills. Their originals are still in data/raw/classes/images/bootcamp/.
