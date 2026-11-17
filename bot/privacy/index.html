@@ -20,22 +20,36 @@ footer{border-top:1.5px solid var(--g);padding:28px 24px 48px;font-size:13px;col
 <p>The bot is run by Do Not Research Incorporated, a 501(c)(3) nonprofit organization. It works together with the Do Not Research members portal. Questions and requests go to <a href="mailto:info@donotresearch.org">info@donotresearch.org</a>.</p>
 
 <h2>What the bot does</h2>
-<p>The bot does one thing: in the Do Not Research Discord server, it gives the Researcher role to people who have linked their Discord account to an active Do Not Research membership, and takes that role back when the membership ends. It only removes a role that it gave.</p>
-<p>The bot has one permission in the server, Manage Roles. It does not read, store or send messages, does not join voice channels, and does not send direct messages.</p>
+<p>The bot does two things in the Do Not Research Discord server.</p>
+<p>It gives the Researcher role to people who have linked their Discord account to an active Do Not Research membership, and takes that role back when the membership ends. It only removes a role that it gave.</p>
+<p>It counts the activity of members who have linked their Discord account, so that they can earn patches on their page in the members portal: for example a patch for a number of posts, or for a post that many people reacted to. It counts only for accounts that are linked. If you have not linked your account, the bot keeps nothing about you.</p>
+<p>To count, the bot can see the channels it has been given access to, including members' channels, and the history of those channels. For each message it sees who posted it, where, when, and how many reactions it has. It has not asked Discord for access to the text of messages, so Discord does not send it, except for a message that mentions the bot or is sent to it directly; the bot does not read or keep the text in those cases either. It never reads or keeps attachments, images, links or embeds.</p>
+<p>The bot does not join voice channels and does not send direct messages.</p>
 
 <h2>What is collected</h2>
 <p>Nothing is collected about a Discord account unless its owner chooses to link it on the members portal. When a member links their account, Discord asks for permission to share basic account information (the "identify" permission). The portal then keeps:</p>
 <ul>
-<li>the Discord user ID and username;</li>
+<li>the Discord user ID, username and display name;</li>
 <li>the membership account it is linked to: the account ID and the email address verified at sign-in by ITM, the service that holds Do Not Research memberships;</li>
 <li>the date of the link;</li>
 <li>a record of each time the bot gave or removed the role, with the date and the reason (for example, an active membership, or a membership that ended).</li>
 </ul>
-<p>The permission Discord grants is used once, to read the account ID and username, and is not kept. The portal never receives a Discord password, email address, messages, friends list or server list.</p>
+<p>The permission Discord grants is used once, to read the account ID and names, and is not kept. The portal never receives a Discord password, email address, friends list or server list.</p>
+<p>For a linked account, the bot also keeps these numbers about activity in the Do Not Research server:</p>
+<ul>
+<li>how many posts the member has made, and how many in each channel;</li>
+<li>how many threads and forum posts the member has started;</li>
+<li>how many reactions the member has given to other people's posts, counted from the time their account started being counted;</li>
+<li>the dates of the member's first and last post;</li>
+<li>the highest number of reactions one of the member's posts has received (their own reactions to it are not counted), with the ID of that post and of its channel, so that an officer can find the post.</li>
+</ul>
+<p>These numbers cover posts made before the account was linked as well as after: after a member links, the bot reads back through the server's history, usually within a day or two, and counts that member's past posts.</p>
+<p>The bot does not keep the text of any message, any attachment or image, or the title of any thread. It keeps no list of a member's posts: only the totals above and the one post ID.</p>
+<p>About people who have not linked their account the bot keeps nothing: no count, no ID, no name. While it reads a channel it passes over their posts and reactions without recording them. To remember how far it has read, it keeps one bookmark for each channel, which is the ID of the last message it looked at in that channel; that ID says when a message was sent and nothing about who sent it. It also keeps the names of the server's channels.</p>
 <p>To decide who holds the role, the bot also reads which roles a linked member currently has in the Do Not Research server. That is checked when needed and is not kept as a history.</p>
 
 <h2>What it is used for</h2>
-<p>Only to give members access to the Do Not Research Discord and to remove that access when a membership ends. It is not used for advertising, is not sold, and is not shared with anyone outside Do Not Research, except the services that run the system:</p>
+<p>The link and the role records are used only to give members access to the Do Not Research Discord and to remove that access when a membership ends. The activity numbers are used only to award patches, which the member sees on their own page in the members portal; officers of Do Not Research can see the numbers. None of this is used for advertising, sold, or shared with anyone outside Do Not Research, except the services that run the system:</p>
 <ul>
 <li>Discord, where the role is set;</li>
 <li>ITM (itm.studio), which holds memberships, payments and sign-in;</li>
@@ -45,10 +59,12 @@ footer{border-top:1.5px solid var(--g);padding:28px 24px 48px;font-size:13px;col
 
 <h2>How long it is kept</h2>
 <p>A link is kept for as long as the Discord account stays linked. The record of role changes is kept so that the bot never removes a role it did not give.</p>
+<p>The activity numbers are kept for as long as the account stays linked, and are deleted when it is unlinked. They are counts of posts made: deleting a post on Discord later does not lower the count, because the bot keeps no list of posts to check against. If the post behind a member's highest reaction number is deleted, that number is cleared.</p>
 
 <h2>Unlinking and deletion</h2>
-<p>To unlink a Discord account, or to have everything held about it deleted, write to <a href="mailto:info@donotresearch.org">info@donotresearch.org</a> from the email address on the membership, or with the Discord username. The link and its records are deleted and the bot removes any role it gave. Requests are handled by a person, normally within 30 days.</p>
-<p>Leaving the Do Not Research server does not delete the link. Ask for deletion as above.</p>
+<p>To unlink a Discord account, or to have everything held about it deleted, write to <a href="mailto:info@donotresearch.org">info@donotresearch.org</a> from the email address on the membership, or with the Discord username. The link, its records and all the activity numbers for that account are deleted, and the bot removes any role it gave. From then on the bot keeps nothing about that account. Requests are handled by a person, normally within 30 days.</p>
+<p>A member who wants to stay linked for the role but not be counted cannot choose that yet; write to <a href="mailto:info@donotresearch.org">info@donotresearch.org</a> and we will tell you what is possible.</p>
+<p>Leaving the Do Not Research server does not delete the link or the numbers. Ask for deletion as above.</p>
 
 <h2>Age</h2>
 <p>Discord requires its users to be at least 13 years old, or older where local law says so. The bot is not meant for anyone younger, and Do Not Research does not knowingly keep information about children under 13.</p>
